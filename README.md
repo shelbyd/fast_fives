@@ -6,7 +6,7 @@ The algorithms presented in the video appeared optimizable.
 
 ## Results
 
-Currently this takes about `~15` seconds to generate the "correct" 831 words output according to the linked video on my i9-12900K @ 3.2GHz, which is admittedly a little overkill.
+Currently this takes about `~15 seconds` to generate the "correct" 831 words output according to the linked video on my i9-12900K @ 3.2GHz, which is admittedly a little overkill.
 
 ## Technique
 
@@ -18,11 +18,14 @@ This primarily achieves the performance it has by:
 
 There are likely more improvements to make. But another few orders of magnitude improvement over the existing solutions is sufficient for now. :)
 
+1. Compare word validity using bitstrings and XORs
+1. Prune fully-checked words from initial filtering
+
 ## Installation
 
 Install Rust [https://rustup.rs/](https://rustup.rs/).
 
-Clone the repository.
+Clone this repository.
 
 Run:
 
