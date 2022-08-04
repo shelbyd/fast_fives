@@ -1,0 +1,8 @@
+[package]
+edition = "2021"
+name = "fast_fives"
+version = "0.1.0"
+
+[dependencies]
+indicatif = { version = "0.17.0", features = ["rayon"] }
+rayon = "1.5.3"
